@@ -1,4 +1,10 @@
-import * as React from "react";
+import * as React from 'react';
+import styled from 'styled-components';
+
 export const Button = () => {
-  return <button>Boop</button>;
+    return <Container>Boop</Container>;
 };
+
+const Container = styled.button`
+    background: gold;
+`;
